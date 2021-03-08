@@ -1,0 +1,96 @@
+{
+  "charts": [
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "Tipo de tuberías en función del material de fabircación",
+      "symbol": {
+        "color": [
+          104,
+          235,
+          92,
+          255
+        ],
+        "width": 3,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "webMapLayerId": "Red_Abastecimiento_502",
+      "mode": "count",
+      "name": "Tipo de tuberías",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "pie",
+          "display": {
+            "colors": [
+              "#5d9cd3",
+              "#eb7b3a",
+              "#a5a5a5",
+              "#febf29",
+              "#4673c2",
+              "#72ad4c"
+            ],
+            "showDataLabel": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "categoryField": "Tipo",
+      "sortOrder": {
+        "isLabelAxis": true,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "displaySQL": "1=1",
+        "expr": "1=1"
+      },
+      "description": "",
+      "symbol": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriPMS",
+        "url": "http://static.arcgis.com/images/Symbols/Basic/esriCartographyMarker_81_Yellow.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 18,
+        "height": 18
+      },
+      "webMapLayerId": "Red_Abastecimiento_5315",
+      "mode": "feature",
+      "name": "Red_Abastecimiento - Válvulas",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#da70d6"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "labelField": "Id_Valvula",
+      "valueFields": [
+        "Tipo"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": true
+      }
+    }
+  ]
+}
